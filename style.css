@@ -34,10 +34,23 @@ main{
     width: 1000px;
     height: 800px;
     background-color: #fff;
-    display: block;
+    display: inline-block;
     border-radius: 8px;
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
     box-shadow: 4px 4px 8px rgba(0,0,0,0.15);
+}
+
+.box {
+    width: 300px;
+    height: 200px;
+    display: block;
+    background-color: chartreuse;
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-top: 25px;
+
+    /* position: absolute;*\
+
 }
